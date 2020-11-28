@@ -1,0 +1,22 @@
+.dark-bg {
+  height: 252px;
+  background-color: $hero-cl;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-footer {
+  width: 231px;
+}
+.addres {
+  font-style: normal;
+  &-item:not(:last-child) {
+    margin-bottom: 6px;
+  }
+  &-style {
+    color: $white-cl;
+  }
+  &-contact {
+    color: $white-cl 0.6;
+  }
+}

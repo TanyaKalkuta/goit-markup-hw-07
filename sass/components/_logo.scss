@@ -1,0 +1,20 @@
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $accent-cl;
+  text-decoration: none;
+}
+
+.logo__studio {
+  color: $footer-cl;
+}
+
+.logofooter__studio {
+  color: $white-cl;
+  margin-bottom: 20px;
+  display: inline-block;
+}
