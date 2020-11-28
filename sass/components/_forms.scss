@@ -60,9 +60,9 @@
   box-sizing: border-box;
   border-radius: 4px;
   cursor: pointer;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition: border-color;
-  transition-duration: var(--time);
+  transition-duration: $time;
 }
 
 .form__input:focus {
@@ -83,7 +83,7 @@
   top: 51%;
   left: 12px;
   position: absolute;
-  .form-input:focus + & {
+  .form__input:focus + & {
     fill: $accent-cl;
   }
 }

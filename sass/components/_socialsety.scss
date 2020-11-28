@@ -13,9 +13,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    transition-timing-function: var(--timing-function);
+    transition-timing-function: $timing-function;
     transition-property: background-color;
-    transition-duration: var(--time);
+    transition-duration: $time;
     &:hover,
     &:focus {
       background-color: $accent-cl;
@@ -27,9 +27,9 @@
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition-property: fill;
-  transition-duration: var(--time);
+  transition-duration: $time;
 }
 .social__icons-link:hover .social__icon-svg,
 .social__icons-link:focus .social__icon-svg {
@@ -55,9 +55,9 @@
   align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition-property: background-color;
-  transition-duration: var(--time);
+  transition-duration: $time;
   &:hover,
   &:focus {
     background-color: $accent-cl;

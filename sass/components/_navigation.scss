@@ -22,8 +22,8 @@
   .link {
     position: relative;
     display: block;
-    transition-timing-function: var(--timing-function);
-    transition-duration: var(--time);
+    transition-timing-function: $timing-function;
+    transition-duration: $time;
   }
 }
 .site__nav .link:hover:after,
@@ -38,8 +38,8 @@
   border-radius: 2px;
   margin: 0;
   opacity: 1;
-  transition-timing-function: var(--timing-function);
-  transition-duration: var(--time);
+  transition-timing-function: $timing-function;
+  transition-duration: $time;
 }
 
 .auth__nav {
@@ -70,9 +70,9 @@
 .link__mail {
   display: flex;
   align-items: center;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition-property: fill;
-  transition-duration: var(--time);
+  transition-duration: $time;
   &:focus .email__icon,
   &:hover .email__icon {
     fill: $accent-cl;
@@ -82,9 +82,9 @@
 .link__tell {
   display: flex;
   align-items: center;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition-property: fill;
-  transition-duration: var(--time);
+  transition-duration: $time;
   &:focus .tell__icon,
   &:hover .tell__icon {
     fill: $accent-cl;

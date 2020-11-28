@@ -39,14 +39,14 @@ img {
   padding: 0;
   margin: 0;
 }
-.link {
+.link,
+.link__footer {
   color: inherit;
   text-decoration: none;
-  transition-timing-function: var(--timing-function);
+  transition-timing-function: $timing-function;
   transition-property: color;
-  transition-duration: var(--time);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  transition-duration: $time;
+
   &:hover {
     color: $accent-cl;
   }
@@ -54,6 +54,15 @@ img {
     color: $accent-cl;
   }
 }
+.link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.link__footer {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .section__title {
   font-family: inherit;
   font-weight: 700;
